@@ -1,0 +1,26 @@
+note-card {
+  align-items: start;
+  border: 0.025rem solid var(--color-neutral-50);
+  display: flex;
+  margin-block: var(--size-32);
+  padding: var(--size-16);
+}
+
+note-card .notecard-title {
+  font-size: var(--typography-size-small-medium);
+  margin: 0;
+}
+
+note-card .notecard-content {
+  margin-block: 0;
+}
+
+note-card svg-icon {
+  flex: 0 0 2rem;
+  margin-block-start: var(--size-4);
+}
+
+note-card svg {
+  height: 2rem;
+  width: 2rem;
+}

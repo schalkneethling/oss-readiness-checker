@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Open Source Release Readiness Checker</title>
+  <link rel="stylesheet" type="text/css" href="src/css/minimalist/minimalist.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="src/css/readiness-checker.css" media="screen">
+</head>
+
+<body>
+  <div class="page-wrapper">
+    <h1>Open Source Release Readiness Checker</h1>
+
+    <h2>Essential Requirements Progress</h2>
+    <progress value="0" max="100"></progress>
+
+    <note-card variant="info" note="preparation-needed"></note-card>
+
+
+    <form name="readiness-checker" method="post">
+      <readiness-checker-category>
+        <template id="category-item">
+          <li>
+            <input type="checkbox">
+            <label></label>
+          </li>
+        </template>
+      </readiness-checker-category>
+    </form>
+
+    <note-card variant="info" note="general-note"></note-card>
+  </div>
+
+  <template id="notecard">
+    <div class="notecard-content-wrapper">
+      <h2 class="notecard-title"></h2>
+      <p class="notecard-content"></p>
+    </div>
+  </template>
+
+  <script src="src/utils/svg-icon-util.js" type="module"></script>
+  <script src="src/components/readiness-checker/readiness-checker.js" type="module"></script>
+  <script src="src/components/svg-icon.js" type="module"></script>
+  <script src="src/components/notecard/notecard.js" type="module"></script>
+</body>
+
+</html>

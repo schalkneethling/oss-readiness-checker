@@ -1,0 +1,14 @@
+@import url("../components/notecard/notecard.css");
+
+body {
+  background-image: linear-gradient(to bottom in oklab, #fff9e7, #fefffa);
+}
+
+progress {
+  width: 100%;
+}
+
+.page-wrapper {
+  margin: 0 auto;
+  max-width: 83.5rem;
+}

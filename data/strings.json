@@ -1,0 +1,10 @@
+{
+  "general-note": {
+    "title": "Note",
+    "content": "While only required items are needed for release readiness, recommended items can significantly improve your project's success and community adoption."
+  },
+  "preparation-needed": {
+    "title": "More Preparation Needed",
+    "content": "Focus on completing the required checklist items before considering release."
+  }
+}

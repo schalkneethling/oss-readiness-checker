@@ -1,0 +1,35 @@
+{
+  "name": "oss-readiness-checker",
+  "version": "1.0.0",
+  "description": "A simple checklist with required and recommended tasks to help you determine whether you are ready to change visibility to public.",
+  "main": "index.js",
+  "scripts": {
+    "svg:sprite": "svg-symbol-sprite -i ./icons/ -o ./icons/sprite.svg",
+    "prettier:lint": "prettier .",
+    "prettier:format": "prettier --write .",
+    "lint:js": "eslint .",
+    "lint:css": "stylelint **/*.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schalkneethling/oss-readiness-checker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schalkneethling/oss-readiness-checker/issues"
+  },
+  "homepage": "https://github.com/schalkneethling/oss-readiness-checker#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "eslint": "^9.20.1",
+    "eslint-config-prettier": "^10.0.1",
+    "globals": "^15.15.0",
+    "prettier": "^3.5.1",
+    "stylelint": "^16.14.1",
+    "stylelint-config-standard": "^37.0.0",
+    "stylelint-order": "^6.0.4",
+    "svg-symbol-sprite": "^1.5.2"
+  }
+}
