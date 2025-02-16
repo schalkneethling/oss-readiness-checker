@@ -1,4 +1,5 @@
 @import url("../components/notecard/notecard.css");
+@import url("../components/readiness-checker/readiness-checker.css");
 
 body {
   background-image: linear-gradient(to bottom in oklab, #fff9e7, #fefffa);

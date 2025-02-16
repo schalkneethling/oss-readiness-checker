@@ -1,0 +1,4 @@
+readiness-checker-category fieldset {
+  background-color: var(--color-neutral-inverted);
+  border: 0.025rem solid var(--color-neutral-50);
+}
